@@ -1,1 +1,1 @@
-# placeholder to put python dependencies
+pywinauto==0.6.8
