@@ -17,3 +17,9 @@ pip install -r requirements.txt
 ```
 playwright codegen https://example.com
 ```
+
+# Boto
+1. Check if boto3 is installed:
+```
+pip show boto3
+```

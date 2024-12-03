@@ -1,11 +1,8 @@
 from playwright.sync_api import sync_playwright, expect
 import logging
+from util.logging_config import setup_logging
 
-# Set up logging configuration with detailed format and timestamp
-logging.basicConfig(
-    level=logging.DEBUG,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-)
+setup_logging()
 
 def test_google_search():
     search_text = "testing"  # Store the search text in a variable

@@ -2,9 +2,9 @@ import unittest
 import logging
 import time
 from pywinauto import Desktop, Application
+from util.logging_config import setup_logging
 
-# Configure logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+setup_logging()
 
 class NotepadTest(unittest.TestCase):
     def setUp(self):
